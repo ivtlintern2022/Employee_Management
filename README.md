@@ -1,2 +1,2 @@
 # Employee_Management
-Employee Management system is developed for IVTL
+Employee Management system is developing for IVTL
