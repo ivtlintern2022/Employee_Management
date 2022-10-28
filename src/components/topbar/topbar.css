@@ -1,0 +1,9 @@
+.navbar{
+    position: sticky;
+    background-color: aqua;
+    height: 60px;    
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 999;
+}

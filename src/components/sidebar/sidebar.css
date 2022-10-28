@@ -1,0 +1,10 @@
+.sidebar{
+    flex: 4;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 597px;
+    width: 200px;
+    overflow-y: scroll;
+    position: sticky;
+} 
