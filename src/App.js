@@ -18,7 +18,7 @@ function App() {
 {/* div row starts here */}
     <div className="row" style={{padding:"none"}}>
     {/* div column starts here */}
-    <div className="col-2 gx-0">
+    <div className="col-2 gx-0" style={{backgroundColor:"#1C212D"}}>
     <Sidebar/>
     </div>
     {/* div column ends here */}

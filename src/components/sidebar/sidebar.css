@@ -1,6 +1,49 @@
 .sidebar{
-    background-color: black;
     height:645px;
     width: 100%;
-    /* height: 100%; */
+    
+}
+.span_reset_filters{
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color:white;
+
+}
+.span_reset_filters:hover{
+    color:whitesmoke;
+}
+.span_filter_by{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+}
+.span_filter_by:hover{
+    color:whitesmoke;
+}
+.filter_span_row{
+    border-bottom: 1px solid #fff;
+}
+/* employee name input filter */
+.emp_name_input{
+    width: 220px;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#employee_name_span{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+/* employee id input filter */
+.emp_id_input{
+    width: 220px;
+    max-width: 300px;
+    margin-top: 10px;
+}
+#employee_id_span{
+    font-size: 14px;
+    padding-bottom: 20px;
 }
