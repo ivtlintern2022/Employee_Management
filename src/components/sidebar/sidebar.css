@@ -1,7 +1,9 @@
 .sidebar{
     height:645px;
     width: 100%;
-    
+}
+span{
+    border-bottom: 1px solid #fff;
 }
 .span_reset_filters{
     float: right;
@@ -9,6 +11,7 @@
     margin-bottom: 10px;
     cursor: pointer;
     color:white;
+    font-size: 14px;
 
 }
 .span_reset_filters:hover{
@@ -16,9 +19,10 @@
 }
 .span_filter_by{
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     cursor: pointer;
     color: white;
+    font-size: 14px;
 }
 .span_filter_by:hover{
     color:whitesmoke;
@@ -28,22 +32,41 @@
 }
 /* employee name input filter */
 .emp_name_input{
-    width: 220px;
+    width: 190px;
+    height: 30px;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.emp_name_input::placeholder{
+    font-size: 13px;
+
+}
+#employee_name_span{
+    font-size: 14px;
+}
+#gender_span{
+    font-size: 14px;
+
+}
+#employee_status_span{
+    font-size: 14px;
+}
+/* employee id input filter */
+.emp_id_input{
+    width: 190px;
+    height: 30px;
     max-width: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#employee_name_span{
-    font-size: 14px;
-    padding-bottom: 20px;
-}
-/* employee id input filter */
-.emp_id_input{
-    width: 220px;
-    max-width: 300px;
-    margin-top: 10px;
+.emp_id_input::placeholder{
+    font-size: 13px;
 }
 #employee_id_span{
     font-size: 14px;
-    padding-bottom: 20px;
+}
+#job_location{
+    font-size: 14px;
 }
