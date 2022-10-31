@@ -1,9 +1,10 @@
 .listview{
     position:absolute;
-    margin-top: 42px;
-    height: 510px;
+    margin-top: 22px;
+    height: 500px;
     background-color: aquamarine;
-    margin-left: 42px;
-    margin-right: 42px;
-    width: 1150px;
+    margin-left: 22px;
+    /* margin-right: 22px; */
+    width: 1050px;
+    overflow: auto;
 }

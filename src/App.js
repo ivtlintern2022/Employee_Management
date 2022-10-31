@@ -3,7 +3,7 @@ import Header from "./components/header/Header";
 import Sidebar from "./components/sidebar/Sidebar";
 import Overallview from "./components/overallview/Overallview";
 import Listview from "./components/listview/Listview";
-
+import "./app.css"
 
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
 {/* The div grod starts here */}
 <div className="container-fluid">
 {/* div row starts here */}
-    <div className="row" style={{padding:"none"}}>
+    <div className="row">
     {/* div column starts here */}
-    <div className="col-2 gx-0" style={{backgroundColor:"#1C212D"}}>
+    <div className="col-2 sidebar_col gx-0">
     <Sidebar/>
     </div>
     {/* div column ends here */}
@@ -29,7 +29,7 @@ function App() {
       <div className="row">
       <Header/>
       </div>
-      <div className="row" style={{position:"relative"}}>
+      <div className="row overallview">
       <Overallview/>
     <Listview/>
       </div>

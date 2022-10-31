@@ -24,16 +24,16 @@ export default function Sidebar() {
     {/* div col starts */}
     <div className="col">
     <div class="form-check" style={{marginTop:"10px"}}>
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-        <label class="form-check-label" for="flexRadioDefault1">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault"/>
+        <label class="form-check-label" for="flexRadioDefault">
           Active
         </label>
       </div>
     </div>
     <div className="col">
     <div class="form-check" style={{marginTop:"10px"}}>
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-        <label class="form-check-label" for="flexRadioDefault1">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault"/>
+        <label class="form-check-label" for="flexRadioDefault">
           Inactive
         </label>
       </div>
@@ -70,8 +70,8 @@ export default function Sidebar() {
       {/* location 1 ends here */}
       {/* location 2 */}
     <div className="form-check">  
-        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-          <label className="form-check-label" for="flexCheckDefault">
+        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault3"/>
+          <label className="form-check-label" for="flexCheckDefault3">
           Madurai       
           </label>
       </div>  
@@ -81,16 +81,16 @@ export default function Sidebar() {
       <div className='col' style={{marginLeft:"-30px"}}>
      {/* location 2 */}
      <div className="form-check" style={{fontSize:"14px"}}>
-        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-          <label className="form-check-label" for="flexCheckDefault">
+        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault4"/>
+          <label className="form-check-label" for="flexCheckDefault4">
           Coimbatore       
           </label>
       </div> 
       {/* location 2 ends here */}
       {/* location 3 */}
      <div className="form-check" style={{fontSize:"14px"}}>
-        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-          <label className="form-check-label" for="flexCheckDefault">
+        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault5"/>
+          <label className="form-check-label" for="flexCheckDefault5">
           Banglore    
           </label>
       </div> 
@@ -109,24 +109,24 @@ export default function Sidebar() {
     {/* div col starts */}
     <div className="col-sm-5">
     <div class="form-check" style={{marginTop:"5px"}}>
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-        <label class="form-check-label" for="flexRadioDefault1">
+        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2"/>
+        <label class="form-check-label" for="flexRadioDefault2">
           Male
         </label>
       </div>
     </div>
     <div className="col-sm-5">
     <div class="form-check" style={{marginTop:"5px"}}>
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-        <label class="form-check-label" for="flexRadioDefault1">
+        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2"/>
+        <label class="form-check-label" for="flexRadioDefault2">
           Female
         </label>
       </div>
     </div>
     <div className="col-sm-5">
     <div class="form-check" style={{marginTop:"1px"}}>
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-        <label class="form-check-label" for="flexRadioDefault1">
+        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2"/>
+        <label class="form-check-label" for="flexRadioDefault2">
           Others
         </label>
       </div>
@@ -138,7 +138,7 @@ export default function Sidebar() {
     {/* Gender ends*/}
 
     {/* date of joining */}
-    <span id='gender_span'>Date of Joining</span>
+    <span id='gender_span'> Date of Joining </span>
     {/* div row */}
     <div className="row" style={{width:"210px"}}>
     {/* div col */}
@@ -180,10 +180,8 @@ export default function Sidebar() {
     {/* div row ends here */}
     {/* date of joining ends here */}
   </ul>
-  {/* Base Settings */}
    <div className='row'>
-    {/* style={{borderTop:"1px solid #fff", width:"250px"}} */}
-   {/* <i className='bi bi-arrow-bar-right' style={{marginLeft:"10px"}}>hi</i> */}
+   {/* <input type="text" data-role="taginput"/> */}
    </div>
     </div>
   );
