@@ -2,10 +2,23 @@
   height: 50px;
   background-color: #fff;
   position: sticky;
-  width: 1200px;
 }
+.header_navbar{
+  /* fontSize:"14px", width:"100%" */
+  font-size: 14px;
+  width: 100%;
 
+}
 #ivtl_logo{
   width: 120px;
   margin-left: 30px;
+}
+.header_user_designation_card{
+  width:210px;
+  height:40px;
+  border-radius: 0;
+  border: none;
+}
+.header_user_image{
+  border-radius: 50px;
 }

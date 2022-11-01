@@ -1,15 +1,12 @@
 .sidebar{
     height:645px;
     width: 120px;
-    overflow: scroll;
+    overflow:auto;
 }
 @media only screen and (max-width: 400px) {
  .sidebar{
     height: 100%;
  } 
-}
-span{
-    border-bottom: 1px solid #fff;
 }
 .span_reset_filters{
     float: right;

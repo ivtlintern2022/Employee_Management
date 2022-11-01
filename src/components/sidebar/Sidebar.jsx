@@ -169,7 +169,7 @@ export default function Sidebar() {
     <div className="col" style={{paddingTop:"10px", height:"40px"}}>
     {/* select starts here */}
     <select class="form-select form-select-sm" aria-label=".form-select-sm example" style={{height:"30px",width:"120px"}}>
-    <option selected>Select year</option>
+    <option selected>select-year</option>
     <option value="1">One</option>
     <option value="2">Two</option>
     <option value="3">Three</option>

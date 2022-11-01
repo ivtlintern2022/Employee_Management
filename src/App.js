@@ -18,7 +18,7 @@ function App() {
 {/* div row starts here */}
     <div className="row">
     {/* div column starts here */}
-    <div className="col-2 sidebar_col gx-0">
+    <div className="col-2 sidebar_col gx-0 ">
     <Sidebar/>
     </div>
     {/* div column ends here */}
