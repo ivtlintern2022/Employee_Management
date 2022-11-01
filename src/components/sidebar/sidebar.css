@@ -13,25 +13,25 @@
     margin-right: 20px;
     margin-bottom: 10px;
     cursor: pointer;
-    color:white;
+    /* color:white; */
     font-size: 14px;
 
 }
-.span_reset_filters:hover{
-    color:whitesmoke;
-}
+/* .span_reset_filters:hover{
+     color:whitesmoke;
+ }  */
 .span_filter_by{
     margin-left: 20px;
     margin-bottom: 8px;
     cursor: pointer;
-    color: white;
+    /* color: white; */
     font-size: 14px;
 }
 .span_filter_by:hover{
     color:whitesmoke;
 }
 .filter_span_row{
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid black;
 }
 /* employee name input filter */
 .emp_name_input{
@@ -44,7 +44,6 @@
 }
 .emp_name_input::placeholder{
     font-size: 13px;
-
 }
 #employee_name_span{
     font-size: 14px;

@@ -7,8 +7,9 @@ import { HiViewGrid } from "react-icons/hi";
 
 export default function Header() {
   return (
-    <div className='header shadow p-1 mb-4 rounded'>
+    <div className='header p-1 mb-2'>
     
+
     <div className='row'>
        <div className="col-10">
        {/* search input starts here */}
@@ -19,9 +20,10 @@ export default function Header() {
       {/* search input ends here */}
        </div>
        <div className="col-2 col_of_grid_list_view">
-       <span id='span_list_view'><HiViewList/></span><span id='span_grid_view'><HiViewGrid/></span>
+       <span id='span_list_view' data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"><HiViewList/></span><span id='span_grid_view'><HiViewGrid/></span>
        </div>
-    </div>     
+    </div> 
+
     </div>
   )
 }

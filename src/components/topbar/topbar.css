@@ -1,6 +1,6 @@
 .navbar{
   height: 50px;
-  background-color: #fff;
+  background-color:#1C212D;
   position: sticky;
 }
 .header_navbar{
@@ -18,7 +18,11 @@
   height:40px;
   border-radius: 0;
   border: none;
+  background-color: #1C212D;
 }
 .header_user_image{
   border-radius: 50px;
+}
+.emp_name, .emp_designation{
+  color: #fff;
 }

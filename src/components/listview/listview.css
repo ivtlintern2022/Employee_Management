@@ -2,8 +2,17 @@
     position:absolute;
     /* margin-top: px; */
     height: 100%;
-    /* margin-left: 12px; */
+    margin-left: 12px;
     /* margin-right: 22px; */
     width: 1050px;
     overflow: auto;
+}
+
+.thead_list{
+     background-color: #E3E3E3;
+}
+
+.list_view_card{
+    outline: none;
+    border: none;
 }

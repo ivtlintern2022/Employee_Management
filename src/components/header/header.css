@@ -1,5 +1,6 @@
 .header {
-    background-color:#1C212D;
+    /* background-color:#1C212D */
+  /* background-color: #E3E3E3; */
     height: 65px;
     width: 99%;
 }
@@ -10,7 +11,7 @@
 }
 .header_search_button{
     outline: none;
-    border-radius: 20px;
+    border-radius: 0px;
     background-color: rgb(143, 142, 142);
     color: white;
 }
@@ -21,7 +22,7 @@
 }
 .header_search_form_control{
     font-size: 14px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 .header_search_form_control::placeholder{
     padding-left: 20px;
@@ -49,14 +50,15 @@
     border-radius: 7px;
     cursor: pointer;
 }
-#span_list_view:hover{
-   background-color:rgb(143, 142, 142) ;
+#span_list_view{
+   /* background-color:rgb(143, 142, 142) ; */
    color: black;
 }
-#span_grid_view:hover{
-    background-color:rgb(143, 142, 142) ;
+#span_grid_view{
+    /* background-color:rgb(143, 142, 142) ; */
     color: black;
  }
+ 
 .col_of_grid_list_view{
     margin-top: 10px;
 }

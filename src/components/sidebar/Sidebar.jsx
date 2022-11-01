@@ -4,7 +4,7 @@ import "./sidebar.css"
 
 export default function Sidebar() {
   return (
-    <div classNameName='sidebar' style={{fontSize:"12px",color:"white"}}>
+    <div classNameName='sidebar' style={{fontSize:"12px",color:"black"}}>
 
     {/* filter by and reset filters */}     
     <div className='filter_span_row row-3' style={{paddingTop:"15px"}}>
@@ -15,7 +15,7 @@ export default function Sidebar() {
     
 
     {/* Employee_id */}
-    <ul className="list-group-flush" style={{marginTop:"10px",marginLeft:"-15px", color:"#fff"}}>
+    <ul className="list-group-flush" style={{marginTop:"10px",marginLeft:"-15px"}}>
       {/* employee status */}
     <span id='employee_status_span'>Employee Status</span>
     <li className="list-group-item list_items" style={{fontSize:"14px"}}>
