@@ -41,7 +41,12 @@ function App() {
 {/* div row ends here */}
     </div>
     {/* container-fluid ends here */}
+
+
+    
     </div>
+
+    
   );
 }
 

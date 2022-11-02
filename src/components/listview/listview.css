@@ -1,7 +1,7 @@
 .listview{
     position:absolute;
     /* margin-top: px; */
-    height: 100%;
+    height:700px;
     margin-left: 12px;
     /* margin-right: 22px; */
     width: 1050px;
@@ -15,4 +15,12 @@
 .list_view_card{
     outline: none;
     border: none;
+}
+
+#user_profile_image_list_view{
+    width:45px;
+    border-radius: 50%;
+    height: 45px;
+    object-fit: cover;
+    border: 3px solid #26B580;
 }
