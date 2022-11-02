@@ -3,21 +3,24 @@
 body {
     background-color: #eee;
   }
-  table{
+  /* table{
      max-width: 10px;
      min-width: fit-content;
      height: fit-content;
-  }
-  .basic_div{
-  overflow-x: scroll;
-  }
+  } */
+  /* .basic_div{
+  overflow-x: hi;
+  } */
   .main-container{
     font-family:Arial, Helvetica, sans-serif;
     text-align:center;
-    overflow:hidden;
+    /* overflow:hidden; */
   }
   
-  
+  /* .create_page
+  {
+    overflow-y: scroll;
+  } */
   #app {
     border-radius: 3px;
     border: 1px solid #e5e5e5;
