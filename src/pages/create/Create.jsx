@@ -48,17 +48,14 @@ class Create extends React.Component {
         
         <Row className="profileContainer">
           <Col md={6}>
-            
-              <div id="detail_View">
-                <div id="label_view">
-                  <form action="">
+                
                   <label for="first_Name">First Name</label>
-                  <input type="text" name="firstname" id="first_Name_Id" required />
+                  <input type="text" name="firstname" id="first_Name_Id" required /><br/>
                   <label for="last_Name">Last Name</label>
                   <input type="text" name="lastname" id="last_Name_Id" required /><br></br>
                   <label for="employee_Id">Employee Id      </label>
                   <input type="text" name="EmployeeId" id="Employee_Id" required /><br></br>
-                  <span for="gender">Gender
+                  <label><span for="gender">Gender</span></label>
                   {/* male */}
                   <label for="male">
                   <input type="radio" name="gender" value="male" id="male"/>
@@ -70,14 +67,14 @@ class Create extends React.Component {
                   {/* others  */}
                   <label for="others">
                   <input type="radio" name="gender" value="others" id="others"/> 
-                  Others</label></span>
+                  Others</label>
                   <br/>
                   <label for="dob">Date Of Birth</label>
                   <input type="date" name="dob" id="date_Of_Birth_Id" required /><br></br>
                   <label for="phone_Number">Phone Number</label>
-                  <input type="number" name="phone_number" id="phone_Number_Id" required /><br></br>
+                  <input type="number" name="phone_Number" id="phone_Number_Id" required /><br></br>
                   <label for="email_Id">Email ID</label>
-                  <input type="text" name="emailid" id="email_Id" required /><br/>
+                  <input type="email" name="emailid" id="email_Id" required /><br/>
                   <label for="job_Role">Job Role</label>
                   <select name="job_Role">
                     <option value="none" selected>None</option>
@@ -92,7 +89,6 @@ class Create extends React.Component {
                   </select><br></br>
                   <label for="job_Location">Job Location</label>
                   <input type="text" name="job_Location" id="job_Location" required /><br></br>
-                  </form>
                   {/* <table>
                     <tr>
                       <td> Name</td>
@@ -135,8 +131,7 @@ class Create extends React.Component {
                       <td>{this.state.job_Location}</td>
                     </tr>
                   </table> */}
-        </div>
-        </div>
+
        
               </Col>
               <Col
@@ -154,13 +149,30 @@ class Create extends React.Component {
             </Row>
             </div>
         <div className="main-container">
-          <div style={{ marginLeft: "33px" }}>
-          </div>
-          <hr />
-          <br />
+       <hr />
           <Tabs>
             <Panel title="Basic Details">
-              
+            <div class="container text-center">
+             <div class="row">
+                <div class="col">
+            <label for="driving_license">Driving License</label>
+                  <input type="text" name="driving_license" id="driving_license_Id" required />
+                  <br></br>
+                  <label for="VoterId">Voter ID </label>
+                  <input type="text" name="VoterId" id="Voter_Id" required /><br></br>    
+                  <label for="PassportNo">Passport No </label> 
+                  <input type="text" name="PassportNo" id="PassportNo_Id" required /><br></br> 
+                  </div>
+                 <div class="col">          
+                   <label for="Aadhar">Aadhar Card No </label>
+                  <input type="text" name="Aadhar" id="aadharcard_Id" required /><br></br>
+                    <label for="uan_No">UAN No </label>
+                  <input type="text" name="uann_No" id="uan_Id" required /><br></br>
+                  <label for="pan_No">Pan No.</label>
+                  <input type="text" name="pan_No" id="pan_No_Id" required /><br></br>
+                  </div>
+              </div>
+            </div>
               {/* {data.map((event) => {
                 return (
                   <>
@@ -181,6 +193,29 @@ class Create extends React.Component {
               })} */}
             </Panel>
             <Panel title="Family Details" >
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+            <label for="father_Name">Father Name</label>
+                  <input type="text" name="father_Name" id="father_Name_Id" required />
+                  <br></br>
+                  <label for="mother_Name">Mother Name</label>
+                  <input type="text" name="mother_Name" id="mother_Name_Id" required /><br></br>    
+                  <label for="spouse_Name">Spouse Name</label>
+                  <input type="text" name="spouse_Name" id="spouse_Name_Id"  /><br></br>
+                  <label for="children_Name1">Children Name</label>
+                  <input type="text" name="children_Name1" id="children_Name1_Id"  /><br></br>
+                  </div>
+                  <div class="col">
+                   <label for="father_Occupation">Father Occupation</label>
+                  <input type="text" name="father_Occupation" id="father_Occupation_Id" required /><br></br>
+                   <label for="mother_Occupation">Mother Occupation  </label>
+                  <input type="text" name="mother_Occupation" id="mother_Occupation_Id" /><br></br>
+                  <label for="spouse_Occupation">spouse Occupation</label>
+                  <input type="text" name="spouse_Occupation" id="spouse_Occupation_Id" /><br></br>
+                  </div>
+              </div>
+            </div>
               {/* {data
                 .filter((event) => event.id !== userId)
                 .map((event) => {
@@ -203,6 +238,40 @@ class Create extends React.Component {
                 })} */}
             </Panel>
             <Panel title="Education Details">
+            <div class="container text-center">
+            <div class="row">
+              <div class="col">
+              <label for="tenth_School_Name">Tenth School Name</label>
+              <input type="text" name="tenth_School_Name" id="tenth_School_Name" required/><br />
+              <label for="tenth_Percentage">Tenth Percentage</label>
+              <input type="number" name="tenth_Percentage" id="tenth_Percentage" step="any"required/><br />
+              <label for="twelfth_School_Name">Tweleth School Name</label>
+              <input type="text" name="twelfth_School_Name" id="twelfth_School_Name"/><br />
+              <label for="twelfth_Percentage">Tweleth Percentage </label>
+              <input type="number" name="tweleth_Percentage" id="twelfth_Percentage" step="any" required/><br />
+              <label for="diploma_College_Name">Diploma College Name</label>
+              <input type="text" name="diploma_College_Name" id="diploma_College_Name" required/><br />
+              <label for="diploma_Course">Diploma Course</label>
+              <input type="text" name="diploma_Course" id="diploma_Course" required/><br />
+              </div>
+                  <div class="col">
+              <label for="diploma_Percentage">Diploma Percentage</label>
+              <input type="text" name="diploma_Percentage" id="diploma_Percentage" required/><br />
+              <label for="ug_College_Name">UG College Name</label>
+              <input type="text" name="ug_College_Name" id="ug_College_Name" required/><br />
+              <label for="ug_Course">UG Course</label>
+              <input type="text" name="ug_Course" id="ug_Course" required/><br />
+              <label for="ug_Cgpa">UG CGPA</label>
+              <input type="text" name="ug_Cgpa" id="ug_Cgpa" required/><br />
+              <label for="pg_College_Name">PG College Name</label>
+              <input type="text" name="pg_College_Name" id="pg_College_Name" required/><br />
+              <label for="pg_Degree">PG Degree</label>
+              <input type="text" name="pg_Degree" id="pg_Degree" required/><br />
+              <label for="pg_Cgpa">PG CGPA</label>
+              <input type="text" name="pg_Cgpa" id="pg_Cgpa" required/><br />
+                  </div>
+                  </div>
+                  </div>
               {/* {data
                 .filter((event) => array.includes(event.id))
                 .map((event) => {
@@ -225,6 +294,35 @@ class Create extends React.Component {
                 })} */}
             </Panel>
             <Panel title="Bank Details">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+            <label for="bank_Name">bank_name</label>
+                  <input type="text" name="bank_Name" id="bank_Name_Id" required />
+                  <br></br>
+                  <label for="bank_Ifsc_No">Bank IFSC No.</label>
+                  <input type="text" name="bank_Ifsc_No" id="bank_Ifsc_Id" required /><br></br>    
+                  <label for="insurance_No">Insurance No. </label>
+                  <input type="text" name="insurance_No" id="insurance_No_Id"  /><br></br>
+                  <label for="Mother_Insurance_No">Mother Insurance No.</label>
+                  <input type="text" name="Mother_Insurance_No" id="Mother_Insurance_No"  /><br></br>
+                  <label for="first_Children_Insurance">First Children Insurance </label>
+                  <input type="text" name="first_Children_Insurance" id="first_Children_Insurance"  /><br></br>
+                  </div>
+                  <div class="col">
+                   <label for="bank_account_no">Bank Account No</label>
+                  <input type="text" name="bank_account_no" id="bank_account_Id" required /><br></br>
+                   <label for="bank_branch">Bank Branch  </label>
+                  <input type="text" name="bank_branch" id="bank_branch_Id"  /><br></br>
+                  <label for="father_Insurance_No">Father Insurance No</label>
+                  <input type="text" name="father_Insurance_no" id="father_Insurance_Id"  /><br></br>
+                  <label for="spouse_Insurance_No">Spouse Insurance No</label>
+                  <input type="text" name="spouse_Insurance_No" id="spouse_Insurance_Id"  /><br></br>
+                  <label for="second_Children_Insurance">Second Children Insurance </label>
+                  <input type="text" name="second_Children_Insurance" id="second_Children_Insurance"  /><br></br>
+                  </div>
+              </div>
+            </div>
               {/* {data
                 .filter((event) => array.includes(event.id))
                 .map((event) => {
@@ -247,6 +345,34 @@ class Create extends React.Component {
                 })} */}
             </Panel>
             <Panel title="Office Details">
+            <div class="container text-center">
+            <div class="row">
+              <div class="col">
+              <label for="user_Id">User ID</label>
+             <label> <input type="text" name="user_Id" id="user_Id" required/></label><br/>
+              <label for="date_Of_Joining">Date of Joining</label>
+              <label><input type="date"  id="date_Of_Joining"/></label><br/>
+              <label for="seat_No">Seat No</label>
+              <label><input type="text" name="seat_No" id="seat_No" required/></label><br/>
+              </div>
+                  <div class="col">
+              <label for="languages_known">Languages Known</label>
+              <input type="text" name="languages_known"  d="languages_known" required/><br/>
+              <label for="asset_Details">Asset Details</label>
+              <input type="text" name="asset_Details" id="asset_Details" required/><br/>
+              <label><span for="marital_Status"> Marital Status</span></label>
+                  <label for="single">
+                  <input type="radio" name="marital_Status" value="single" id="single"/>
+                  Single </label>
+                     <label for="married">
+                  <input type="radio" name="marital_Status" value="married" id="married"/> 
+                  Married </label>
+                  <br/>
+                  </div>
+              </div>
+
+                  <label> <input type="submit" value="Submit"/></label>
+                  </div>
               {/* <table>
                 <tr>
                   <td>
@@ -265,6 +391,7 @@ class Create extends React.Component {
                   </td>
                 </tr>
               </table> */}
+                      
             </Panel>
           </Tabs>
         </div>

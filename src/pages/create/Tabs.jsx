@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Tabs extends Component {
   state = {
-    selected: this.props.selected || 2
+    selected: this.props.selected || 0
   };
 
   handleChange(index) {

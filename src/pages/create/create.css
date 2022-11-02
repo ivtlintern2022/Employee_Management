@@ -11,18 +11,17 @@ body {
   /* div {
     margin-bottom: 10px;
   } */
-  .form_page{
-    overflow: scroll;
-  }
+
   label {
     display: inline-block;
-    width: 110px;
-    text-align: right;
+    width: 120px;
+    text-align: left;
   }
 form{
   border-radius: 10px;
   color: black;
-  padding: 4px;
+  padding: 10px;
+  overflow-x: auto;
 }
   .basic_div{
   overflow-x: scroll;
@@ -32,18 +31,17 @@ form{
     text-align:center;
     overflow:hidden;
   }
-  
-  
   #app {
     border-radius: 3px;
     border: 1px solid #e5e5e5;
     margin: 15px;
     background-color: white;
   }
-  
+
   .tab {
     width: 100%;
     padding: 25px;
+    text-align:left;
     font-family: sans-serif;
     color: #444;
   }
