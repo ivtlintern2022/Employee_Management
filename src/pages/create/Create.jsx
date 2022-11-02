@@ -42,15 +42,57 @@ class Create extends React.Component {
   render() {
     // const { data, array, userId } = this.state;
     return (
-      <div><div className="detailed_view_container">
+      <div>
+        <Form action="" className="form_page">
+        <div className="detailed_view_container">
+        
         <Row className="profileContainer">
           <Col md={6}>
-            <Form>
+            
               <div id="detail_View">
                 <div id="label_view">
-                  {/* <form action="">
-                    <label>{fname}</label>
-                  </form> */}
+                  <form action="">
+                  <label for="first_Name">First Name</label>
+                  <input type="text" name="firstname" id="first_Name_Id" required />
+                  <label for="last_Name">Last Name</label>
+                  <input type="text" name="lastname" id="last_Name_Id" required /><br></br>
+                  <label for="employee_Id">Employee Id      </label>
+                  <input type="text" name="EmployeeId" id="Employee_Id" required /><br></br>
+                  <span for="gender">Gender
+                  {/* male */}
+                  <label for="male">
+                  <input type="radio" name="gender" value="male" id="male"/>
+                  Male </label>
+                     {/* female */}
+                     <label for="female">
+                  <input type="radio" name="gender" value="female" id="female"/> 
+                  Female </label>
+                  {/* others  */}
+                  <label for="others">
+                  <input type="radio" name="gender" value="others" id="others"/> 
+                  Others</label></span>
+                  <br/>
+                  <label for="dob">Date Of Birth</label>
+                  <input type="date" name="dob" id="date_Of_Birth_Id" required /><br></br>
+                  <label for="phone_Number">Phone Number</label>
+                  <input type="number" name="phone_number" id="phone_Number_Id" required /><br></br>
+                  <label for="email_Id">Email ID</label>
+                  <input type="text" name="emailid" id="email_Id" required /><br/>
+                  <label for="job_Role">Job Role</label>
+                  <select name="job_Role">
+                    <option value="none" selected>None</option>
+                    <option value="hardware_engineer" >Hardware Engineer</option>
+                    <option value="software_engineer">Software Engineer</option>
+                    <option value="information_systems_manager">Information Systems Manager</option>
+                    <option value="programmer">Programmer</option>
+                    <option value="network_systems_and_data_analyst">Network Systems and Data Analyst</option>
+                    <option value="database_administrator">Database Administrator</option>
+                    <option value="systems_analyst">Systems Analyst</option>
+                    <option value="system_administrator">system administrator</option>
+                  </select><br></br>
+                  <label for="job_Location">Job Location</label>
+                  <input type="text" name="job_Location" id="job_Location" required /><br></br>
+                  </form>
                   {/* <table>
                     <tr>
                       <td> Name</td>
@@ -95,7 +137,7 @@ class Create extends React.Component {
                   </table> */}
         </div>
         </div>
-        </Form>
+       
               </Col>
               <Col
                 style={{
@@ -118,6 +160,7 @@ class Create extends React.Component {
           <br />
           <Tabs>
             <Panel title="Basic Details">
+              
               {/* {data.map((event) => {
                 return (
                   <>
@@ -224,7 +267,9 @@ class Create extends React.Component {
               </table> */}
             </Panel>
           </Tabs>
-        </div></div>
+        </div>
+        </Form>
+        </div>
     );
   }
   

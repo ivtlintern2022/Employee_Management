@@ -8,6 +8,22 @@ body {
      min-width: fit-content;
      height: fit-content;
   }
+  /* div {
+    margin-bottom: 10px;
+  } */
+  .form_page{
+    overflow: scroll;
+  }
+  label {
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+  }
+form{
+  border-radius: 10px;
+  color: black;
+  padding: 4px;
+}
   .basic_div{
   overflow-x: scroll;
   }
@@ -42,7 +58,9 @@ body {
     -webkit-margin-end: 0px;
     -webkit-padding-start: 0px;
   }
-  
+  .mapouter{position:relative;text-align:right;width:600px;height:400px;}
+  .gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}
+  .gmap_iframe {width:600px!important;height:400px!important;}
   ul.inline,
   li {
     display: inline-block;
