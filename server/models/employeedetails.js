@@ -1,3 +1,4 @@
+const { ObjectId } = require("mongodb");
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
@@ -73,25 +74,29 @@ const employee_personal_schema = new Schema({
   
 });
 
-
+// const  ObjectID = mongoose.Types.ObjectId();
 const employee_details_schema= new Schema({
     // employee_primaryinfo: {
-      // _id: ObjectId: {
-      //   type: String,
-      //   unique: false,
-      // },
+      emp_id: {
+        type: String,
+        unique: true,
+      },
       first_name: String,
       last_name: String,
       gender: String,
       dob: Date,
       phone: Number,
-      email_id : String,
+      email_id :  {
+        type: String,
+        unique: true,
+         },
       blood_group: String,
-      address1: [String],
-      address2: [String],
+      address1: String,
+      address2: String,
       driving_license: String,
       voter_id: String,
       passport_no: String,
+      profile_pic: String,
       employee_family: employee_family_schema,
       employee_siblings: employee_siblings_schema,
       employee_education: employee_education_schema,
