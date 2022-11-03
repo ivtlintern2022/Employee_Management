@@ -6,7 +6,7 @@
     position:relative;
 }
 .sidebar_col::-webkit-scrollbar{
-    width: 7px;
+  width: 7px;
   height: 8px;
   background-color: #fff;
 }

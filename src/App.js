@@ -4,6 +4,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Overallview from "./components/overallview/Overallview";
 import Listview from "./components/listview/Listview";
 import "./app.css"
+import Add_symbol from "./components/add_symbol/Add_symbol";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <div className="row overallview">
       <Overallview/>
     <Listview/>
+    <Add_symbol/>
       </div>
 
     </div>
@@ -40,10 +42,7 @@ function App() {
     </div>
 {/* div row ends here */}
     </div>
-    {/* container-fluid ends here */}
-
-
-    
+    {/* container-fluid ends here */}    
     </div>
 
     

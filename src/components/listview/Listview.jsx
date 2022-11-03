@@ -7,19 +7,23 @@ export default function Listview() {
       {/* list_view_starts_here */}
       <div className="card list_view_card shadow mb-2">
           <div className="table-responsive">
-          <table className="table table-hover text-center">
-  <thead className='thead_list'>
-    <tr className='position-sticky'>
-      <th scope='col' style={{maxWidth:"55px"}}><small style={{fontSize:"12px"}}>Select all</small></th>
-      <th scope='col' style={{maxWidth:"70px"}}>profile img</th>
-      <th scope="col">Employee Id</th>
-      <th scope="col">Employee Name</th>
-      <th scope="col">Status</th>
-      <th scope="col">Job Title</th>
-      <th scope="col">Ratings</th>
+            <div className='table_responsive_list_view_card'>
+          <table className="table table-hover text-center" style={{height:"460px"}}>
+            
+  <thead className='thead_list thead_list_position-sticky'>
+  
+    <tr>
+      <th scope='col' className='position-sticky' style={{maxWidth:"55px"}}><small style={{fontSize:"12px"}}>Select all</small></th>
+      <th className='position-sticky' scope='col' style={{maxWidth:"70px"}}>profile img</th>
+      <th className='position-sticky' scope="col">Employee Id</th>
+      <th className='position-sticky' scope="col">Employee Name</th>
+      <th className='position-sticky' scope="col">Status</th>
+      <th className='position-sticky' scope="col">Job Title</th>
+      <th className='position-sticky' scope="col">Ratings</th>
     </tr>
+  
   </thead>
- 
+ {/* position sticky ends */}
   <tbody>
     <tr>
       <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
@@ -135,6 +139,22 @@ export default function Listview() {
 
   </tbody>
           </table>
+          </div>
+          {/* pagination starts here */}
+          <nav aria-label="Page navigation example">
+  <ul className="pagination justify-content-end" style={{marginRight:"30px", marginTop:"10px"}}>
+    <li className="page-item disabled">
+      <a className="page-link page-link-pagination" href='./home'>Previous</a>
+    </li>
+    <li className="page-item"><a className="page-link page-link-pagination" href="./home">1</a></li>
+    <li className="page-item"><a className="page-link page-link-pagination" href="./home">2</a></li>
+    <li className="page-item"><a className="page-link page-link-pagination" href="./home">3</a></li>
+    <li className="page-item">
+      <a className="page-link page-link-pagination" href="./home">Next</a>
+    </li>
+  </ul>
+</nav>
+          {/* pagination ends here */}
         </div>
         </div>
       {/* list_view_ends_here */}

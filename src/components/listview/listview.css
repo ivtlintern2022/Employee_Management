@@ -5,16 +5,23 @@
     margin-left: 12px;
     /* margin-right: 22px; */
     width: 1050px;
-    overflow: auto;
+    /* overflow: auto; */
 }
-
 .thead_list{
      background-color: #E3E3E3;
 }
-
-.list_view_card{
+.table_responsive_list_view_card{
+    height: 455px;
+    overflow-y: auto;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+.page-link-pagination{
+    color: black;
+}
+.table-responsive{
     outline: none;
     border: none;
+    height: 510px;
 }
 
 #user_profile_image_list_view{
