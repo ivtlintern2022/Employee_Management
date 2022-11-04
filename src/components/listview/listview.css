@@ -1,14 +1,15 @@
 .listview{
     position:absolute;
     /* margin-top: px; */
-    height:700px;
+    height:600px;
     margin-left: 12px;
     /* margin-right: 22px; */
-    width: 1050px;
+    min-width: 150px;
+    max-width: 1160px;
     /* overflow: auto; */
 }
 .thead_list{
-     background-color: #E3E3E3;
+    background-color: #E3E3E3;
 }
 .table_responsive_list_view_card{
     height: 455px;
