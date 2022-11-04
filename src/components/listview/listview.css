@@ -3,10 +3,10 @@
     /* margin-top: px; */
     height:600px;
     margin-left: 12px;
-    /* margin-right: 22px; */
-    min-width: 150px;
-    max-width: 1160px;
+    padding-right: 90px;
+    /* max-width: 1060px; */
     /* overflow: auto; */
+    font-size:13px;
 }
 .thead_list{
     background-color: #E3E3E3;
