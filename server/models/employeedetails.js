@@ -12,9 +12,6 @@ const employee_family_schema = new Schema({
   spouse_occupation : String,
   children_name1 : String,
   children_name2 :  String,
-});
-
-const employee_siblings_schema = new Schema({
   sibling_name1 : String,
   sibling_occupation1 : String,
   sibling_name2 : String,
@@ -26,6 +23,8 @@ const employee_siblings_schema = new Schema({
   sibling_name5 : String,
   sibling_occupation5 : String,
 });
+
+
 
 const employee_education_schema = new Schema({
   tenth_school_name : String,
@@ -69,6 +68,7 @@ const employee_personal_schema = new Schema({
   work_location : String,
   seat_no : String,
   languages_known : String,
+  asset_details : String,
   status : Boolean,
   marital_status : String,
   
@@ -95,10 +95,12 @@ const employee_details_schema= new Schema({
       address2: String,
       driving_license: String,
       voter_id: String,
+      aadhar_no: Number,
+      uan_no: Number,
+      pan_no: String,
       passport_no: String,
       profile_pic: String,
       employee_family: employee_family_schema,
-      employee_siblings: employee_siblings_schema,
       employee_education: employee_education_schema,
       employee_bank: employee_bank_schema,
       employee_personal: employee_personal_schema,
