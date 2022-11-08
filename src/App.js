@@ -4,7 +4,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Overallview from "./components/overallview/Overallview";
 import Listview from "./components/listview/Listview";
 import "./app.css"
-import Addsymbol from "./components/add_symbol/Addsymbol";
+// import Addsymbol from "./components/add_symbol/Addsymbol";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 <Topbar/>
 </div>
   
-{/* The div grod starts here */}
+{/* The div grid starts here */}
 <div className="container-fluid">
 {/* div row starts here */}
     <div className="row">
@@ -25,7 +25,7 @@ function App() {
     {/* div column ends here */}
 
     {/* div column starts here */}
-    <div className="col-10">
+    <div className="col-10 gx-0">
       {/* div row */}
       <div className="row">
       <Header/>
@@ -33,11 +33,8 @@ function App() {
       <div className="row overallview">
       <Overallview/>
     <Listview/>
-    <Addsymbol/>
-      </div>
-
     </div>
-    {/* div column ends here */}
+    </div>
 
     </div>
 {/* div row ends here */}

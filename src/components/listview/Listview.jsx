@@ -1,5 +1,7 @@
 import React from 'react'
 import "./listview.css"
+import { IoIosAdd } from "react-icons/io";
+
 
 export default function Listview() {
   return (
@@ -32,7 +34,7 @@ export default function Listview() {
         </td>
       <td>1921189</td>
       <td>Saurav Arvind P</td>
-      <td>Viewed</td>
+      <td>Active</td>
       <td>Web Developer</td>
       <td>***</td>
     </tr>
@@ -42,7 +44,7 @@ export default function Listview() {
       <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
       <td>1921190</td>
       <td>Sedhuragavan L</td>
-      <td>Not Viewed</td>
+      <td>Active</td>
       <td>Software developer</td>
       <td>***</td>
 
@@ -52,7 +54,7 @@ export default function Listview() {
     <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
       <td  >1921189</td>
       <td>Saurav Arvind P</td>
-      <td>Viewed</td>
+      <td>Active</td>
       <td>Web Developer</td>
       <td>***</td>
     </tr>
@@ -62,37 +64,57 @@ export default function Listview() {
     <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
       <td  >1921189</td>
       <td>Saurav Arvind P</td>
-      <td>Viewed</td>
+      <td>Active</td>
       <td>Web Developer</td>
       <td>***</td>
     </tr>
 
     <tr>
     <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
+    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
       <td  >1921189</td>
       <td>Saurav Arvind P</td>
-      <td>Viewed</td>
+      <td>Inactive</td>
       <td>Web Developer</td>
       <td>***</td>
     </tr>
 
     <tr>
     <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
+    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
       <td  >1921189</td>
       <td>Saurav Arvind P</td>
-      <td>Viewed</td>
+      <td>Inactive</td>
       <td>Web Developer</td>
       <td>***</td>
     </tr>
 
     <tr>
     <td><input type="checkbox" name="checkbox-88" id="checkbox-88"/></td>
-    <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
+    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
       <td  >1921189</td>
       <td>Saurav Arvind P</td>
-      <td>Viewed</td>
+      <td>Inactive</td>
+      <td>Web Developer</td>
+      <td>***</td>
+    </tr>
+
+    <tr>
+    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
+    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
+      <td  >1921189</td>
+      <td>Saurav Arvind P</td>
+      <td>Inactive</td>
+      <td>Web Developer</td>
+      <td>***</td>
+    </tr>
+
+    <tr>
+    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
+    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
+      <td>1921189</td>
+      <td>Saurav Arvind P</td>
+      <td>Active</td>
       <td>Web Developer</td>
       <td>***</td>
     </tr>
@@ -102,44 +124,24 @@ export default function Listview() {
     <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
       <td  >1921189</td>
       <td>Saurav Arvind P</td>
-      <td>Viewed</td>
+      <td>Active</td>
       <td>Web Developer</td>
       <td>***</td>
     </tr>
 
     <tr>
     <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
+    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
       <td  >1921189</td>
       <td>Saurav Arvind P</td>
-      <td>Viewed</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
-
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td  >1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Viewed</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
-
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td  >1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Viewed</td>
+      <td>Inactive</td>
       <td>Web Developer</td>
       <td>***</td>
     </tr>
 
   </tbody>
           </table>
-          </div>
+          </div> 
           {/* pagination starts here */}
           <nav aria-label="Page navigation example">
   <ul className="pagination justify-content-end" style={{marginRight:"30px", marginTop:"10px"}}>
@@ -159,7 +161,9 @@ export default function Listview() {
         </div>
       {/* list_view_ends_here */}
 
-
+<div className='add_symbol'>
+<IoIosAdd id='icon_add_main'/>
+</div>
 
     </div>
 

@@ -3,7 +3,7 @@
     overflow:scroll;
 }
 .overallview{
-    position:relative;
+    position:relative;  
 }
 .sidebar_col::-webkit-scrollbar{
   width: 7px;
