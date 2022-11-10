@@ -1,7 +1,7 @@
 import React from 'react'
 import "./listview.css"
 import { IoIosAdd } from "react-icons/io";
-
+import _ from "lodash";
 
 export default function Listview() {
   return (
@@ -27,117 +27,20 @@ export default function Listview() {
   </thead>
  {/* position sticky ends */}
   <tbody>
-    <tr>
-      <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
+
+    {_.times(20, (i) => (
+<tr>
+    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
+    <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
+      <td  >1921189</td>
+      <td>Saurav Arvind P</td>
       <td>
-        <img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" />
-        </td>
-      <td>1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Active</td>
+          Active
+      </td>
       <td>Web Developer</td>
       <td>***</td>
     </tr>
-
-    <tr>
-      <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-      <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td>1921190</td>
-      <td>Sedhuragavan L</td>
-      <td>Active</td>
-      <td>Software developer</td>
-      <td>***</td>
-
-    </tr>
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td  >1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Active</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
-
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td  >1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Active</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
-
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td  >1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Inactive</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
-
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td  >1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Inactive</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
-
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88"/></td>
-    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td  >1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Inactive</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
-
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td  >1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Inactive</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
-
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td>1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Active</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
-
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td  >1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Active</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
-
-    <tr>
-    <td><input type="checkbox" name="checkbox-88" id="checkbox-88" /></td>
-    <td><img id="user_profile_image_list_view_inactive" src="https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg" alt="user_img" /></td>
-      <td  >1921189</td>
-      <td>Saurav Arvind P</td>
-      <td>Inactive</td>
-      <td>Web Developer</td>
-      <td>***</td>
-    </tr>
+    ))}
 
   </tbody>
           </table>
